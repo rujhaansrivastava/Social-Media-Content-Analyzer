@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Social Media Content Analyzer
 
-## Getting Started
+A **Next.js web application** that analyzes social media content from **PDFs and image files** and provides **engagement improvement suggestions**. This project demonstrates file handling, text extraction, and user experience features, making it suitable for real-world scenarios and technical assessments.
 
-First, run the development server:
+---
 
+## 🚀 Features
+- **Document Upload**
+  - Upload PDFs and image files with drag-and-drop or file picker.
+- **Text Extraction**
+  - Parse PDFs using `pdf-parse`.
+  - Perform OCR (Optical Character Recognition) on images using `tesseract.js`.
+- **Engagement Suggestions**
+  - Check for hashtags, emojis, and content length.
+  - Provide actionable tips to improve engagement.
+- **Modern UI**
+  - Built with **Next.js App Router** and **Tailwind CSS**.
+  - Loading states and error handling for a better user experience.
+- **Deployment**
+  - Hosted on **Vercel** with automatic deployments from GitHub.
+
+---
+
+## 🛠 Tech Stack
+- **Frontend & Backend**: [Next.js 14](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Text Extraction**:
+  - [pdf-parse](https://www.npmjs.com/package/pdf-parse)
+  - [Tesseract.js](https://tesseract.projectnaptha.com/)
+- **Deployment**: [Vercel](https://vercel.com/)
+
+---
+
+## 📦 Installation & Setup
+
+### **Clone the Repository**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/rujhaansrivastava/Social-Media-Content-Analyzer.git
+cd Social-Media-Content-Analyzer
