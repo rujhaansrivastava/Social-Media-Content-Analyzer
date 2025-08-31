@@ -27,7 +27,11 @@ A **Next.js web application** that analyzes social media content from **PDFs and
 - **Text Extraction**:
   - [pdf-parse](https://www.npmjs.com/package/pdf-parse)
   - [Tesseract.js](https://tesseract.projectnaptha.com/)
-- **Deployment**: [Vercel](https://vercel.com/)
+- - 🌍 Deployment
+This project is deployed on Vercel.
+HEAD
+🔗 Live Link:[ Click Here](https://social-media-content-analyzer-a3lo26tc7.vercel.app)
+
 
 ---
 
